@@ -1,0 +1,32 @@
+* {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+h1  {
+    color: #8a2be2;
+}
+
+.grupo {
+    background-color: #6495ed;
+    padding: 10px;
+    height: 200px;
+
+
+    display: flex;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    flex-direction: column;
+    
+}
+
+.grupo div {
+    background-color: #8a2be2;
+    margin: 1px;  
+    color: #fff;
+    padding: 10px
+}
+/* .item {
+    flex-grow: 1;
+    align-self: start;
+} */
