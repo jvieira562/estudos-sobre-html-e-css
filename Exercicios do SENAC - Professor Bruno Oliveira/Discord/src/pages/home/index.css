@@ -1,0 +1,46 @@
+
+/* * {
+    border: 1px solid green;
+} */
+
+.secao-01 {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #404eed;
+}
+.s1-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao-02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 120px 40px;
+}
+.espaco {
+    width: 120px;    
+}
+.s2-textos  {
+    display: flex;
+    flex-direction: column;
+
+    width: 380px;
+}
+.s2-textos h1   {
+    font: 48px Discord6;
+    line-height: 57.6px;
+
+    color: #23272a;
+}
+.s2-textos p {
+    font: 20px Discord2;
+    line-height: 32.5px;
+    margin-top: 24px;
+
+    color: #23272a;
+}
